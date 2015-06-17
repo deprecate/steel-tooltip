@@ -1,3 +1,3 @@
-# crystal-tooltip
+# steel-tooltip
 
-CrystalUI's tooltip component
+SteelUI's tooltip component

@@ -1,5 +1,5 @@
 {
-	"name": "crystal-tooltip",
+	"name": "steel-tooltip",
 	"version": "0.0.0",
 	"description": "CrystalUI's tooltip component",
 	"main": "src/Tooltip.js",
@@ -8,7 +8,7 @@
 	],
 	"keywords": [
 		"metal",
-		"crystal"
+		"steel"
 	],
 	"ignore": [
 		"*",
@@ -16,7 +16,7 @@
 	],
 	"dependencies": {
 		"alloy-tooltip": "metal/alloy-tooltip#master",
-		"crystal-bootstrap": "metal/crystal-bootstrap#master",
+		"steel-bootstrap": "metal/steel-bootstrap#master",
 		"metal": "~0.3.1",
 		"metal-jquery-adapter": "~0.0.1",
 		"bootstrap": "~3.3.4",
