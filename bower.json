@@ -16,6 +16,7 @@
 	],
 	"dependencies": {
 		"alloy-tooltip": "metal/alloy-tooltip#master",
+		"crystal-bootstrap": "metal/crystal-bootstrap#master",
 		"metal": "~0.3.1",
 		"metal-jquery-adapter": "~0.0.1",
 		"bootstrap": "~3.3.4",
