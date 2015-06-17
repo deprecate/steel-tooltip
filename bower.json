@@ -18,7 +18,7 @@
 	"dependencies": {
 		"crystal-tooltip": "metal/crystal-tooltip#master",
 		"steel-bootstrap": "metal/steel-bootstrap#master",
-		"metal": "~0.3.1",
+		"metal": "metal/metal.js#master",
 		"metal-jquery-adapter": "~0.0.1",
 		"bootstrap": "~3.3.4",
 		"soyutils": "2014.04.22"
