@@ -1,0 +1,24 @@
+{
+	"name": "crystal-tooltip",
+	"version": "0.0.0",
+	"description": "CrystalUI's tooltip component",
+	"main": "src/Tooltip.js",
+	"moduleType": [
+		"es6"
+	],
+	"keywords": [
+		"metal",
+		"crystal"
+	],
+	"ignore": [
+		"*",
+		"!src/**/*"
+	],
+	"dependencies": {
+		"alloy-tooltip": "metal/alloy-tooltip#master",
+		"metal": "~0.3.1",
+		"metal-jquery-adapter": "~0.0.1",
+		"bootstrap": "~3.3.4",
+		"soyutils": "2014.04.22"
+	}
+}
