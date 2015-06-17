@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"description": "CrystalUI's tooltip component",
 	"license": "MIT",
-	"repository": "eduardolundgren/crystal-tooltip",
+	"repository": "metal/crystal-tooltip",
 	"engines": {
 		"node": ">=0.12.0"
 	},
