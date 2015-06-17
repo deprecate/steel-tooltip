@@ -1,5 +1,5 @@
 'use strict';
 
-import Tooltip from 'bower:alloy-tooltip/src/Tooltip';
+import Tooltip from 'bower:crystal-tooltip/src/Tooltip';
 
 export default Tooltip;
