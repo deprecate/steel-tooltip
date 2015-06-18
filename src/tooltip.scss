@@ -4,15 +4,11 @@
 /* Tooltip
 	 ========================================================================== */
 
-.tooltip-base {
+.tooltip-inner {
 	background: $white;
 	border-radius: $border-radius-base;
 	border: 1px solid rgba($secondary, 0.12);
 	box-shadow: $shadow-large;
-}
-
-.tooltip-inner {
-	@extend .tooltip-base;
 	color: rgba($secondary, .7);
 	display: inline-block;
 	font-size: 12px;
