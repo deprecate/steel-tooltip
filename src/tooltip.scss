@@ -1,5 +1,26 @@
 @import "../bower_components/steel-bootstrap/src/_variables";
+@import "../bower_components/steel-bootstrap/src/_mixins";
 
-.tooltip .tooltip-arrow {
+/* Tooltip
+	 ========================================================================== */
+
+.tooltip-base {
+	background: $white;
+	border-radius: $border-radius-base;
+	border: 1px solid rgba($secondary, 0.12);
+	box-shadow: $shadow-large;
+}
+
+.tooltip-inner {
+	@extend .tooltip-base;
+	color: rgba($secondary, .7);
+	display: inline-block;
+	font-size: 12px;
+	max-width: none;
+	padding: 8px 12px;
+	position: absolute;
+}
+
+.tooltip-arrow {
 	display: none;
 }
