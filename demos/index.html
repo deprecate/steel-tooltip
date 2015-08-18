@@ -9,13 +9,19 @@
 
 	<script src="../bower_components/soyutils/soyutils.js"></script>
 	<script src="../build/globals/tooltip.js"></script>
+
+	<style>
+	body {
+		margin: 100px;
+	}
+	</style>
 </head>
 <body>
 	<h1>Tooltip</h1>
 	<button type="button" id="TooltipButton">Tooltip Button</button>
 	<script type="text/javascript">
 		new steel.Tooltip({
-			content: 'My cool tooltip',
+			content: 'Maecenas faucibus mollis interdum.',
 			delay: [300, 150],
 			elementClasses: 'fade',
 			selector: '#TooltipButton',

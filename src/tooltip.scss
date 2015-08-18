@@ -5,16 +5,19 @@
 	 ========================================================================== */
 
 .tooltip-inner {
-	background: $white;
-	border-radius: $border-radius-base;
+	background: #0e141a;
+	border-radius: $border-radius-small;
 	border: 1px solid rgba($secondary, 0.12);
-	box-shadow: $shadow-large;
-	color: rgba($secondary, .7);
+	box-shadow: 0 1px 8px rgba($black, 0.08);
+	color: rgba($white, .8);
 	display: inline-block;
-	font-size: 12px;
-	max-width: none;
-	padding: 8px 12px;
+	font-size: 11px;
+	line-height: 17px;
+	max-width: 220px;
+	min-width: 140px;
+	padding: 10px 20px;
 	position: absolute;
+	text-align: left;
 }
 
 .tooltip-arrow {
