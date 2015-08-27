@@ -19,12 +19,21 @@
 <body>
 	<h1>Tooltip</h1>
 	<button type="button" id="TooltipButton">Tooltip Button</button>
+	<button type="button" id="TooltipButtonTwo">Tooltip Button Two</button>
 	<script type="text/javascript">
 		new steel.Tooltip({
-			content: 'Maecenas faucibus mollis interdum.',
+			content: 'Vitor Fernandes',
 			delay: [300, 150],
 			elementClasses: 'fade',
 			selector: '#TooltipButton',
+			visible: false
+		}).render();
+
+		new steel.Tooltip({
+			content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, rem.',
+			delay: [300, 150],
+			elementClasses: 'fade',
+			selector: '#TooltipButtonTwo',
 			visible: false
 		}).render();
 	</script>
